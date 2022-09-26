@@ -22,8 +22,11 @@ h1{
     text-align: left;
     font-size: 60px;
     padding-top: 50px;
-
 }
+h2{
+    font-size: 32px;
+}
+
 
 /* COMMON */
 .row{
@@ -49,6 +52,14 @@ h1{
 }
 img{
     max-width: 100%;
+}
+.tag{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    max-width: 100%;
+    padding: 5px 0;
+    font-size: 14px;
+
 }
 
 /* BUTTONS */
@@ -95,6 +106,9 @@ header ul{
 header .btn-blue{
     margin-left: 10px;
 }
+
+
+/* MAIN */
 .hero .col-small,.col-big{
     position: relative;
     top: 80px;
@@ -108,8 +122,42 @@ header .btn-blue{
     font-size: 36px;
     padding-top: 100px;
 }
-
-
-/* MAIN */
+/* business plans */
+.container-small h2{
+    margin-top: 150px;
+}
+.fatturazione{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+label{
+    margin-right: 40px;
+}
+.business .row{
+    justify-content: space-between;
+}
+/* offerte dropbox */
+.row .offerte{
+    width:calc(90% / 3);
+    border: 1px solid lightgray;
+}
+.offerte small{
+    display: block;
+}
+.offerte .description{
+    padding: 20px 20px 30px 20px;
+}
+.description h3{
+    margin-bottom: 10px;
+}
+.description small{
+    margin-bottom: 10px;
+}
+.description ul{
+    margin-top: 40px;
+}
+.description li{
+    margin: 10px 0;
+}
 
 /* FOOTER */
