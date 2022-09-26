@@ -41,26 +41,33 @@ header a{
     background-color: #0061ff;
     color: white;
     font-size: 16px;
-    padding: 5px 8px;
-    border-color: #0061ff;
+    padding: 5px 10px;
+    border: 1px solid #0061ff;
 }
 
 /* HEADER */
 header{
     height: 80px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 header > div{
     justify-content: space-between;
 }
 .header-col{
     align-items: center;
-    padding: 20px;
+    padding: 20px 10px;
 }
 header li{
     padding: 0 10px;
 }
 header ul{
     align-items: center;
+}
+header .btn-blue{
+    margin-left: 10px;
 }
 
 
