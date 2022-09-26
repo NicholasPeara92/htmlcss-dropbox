@@ -173,5 +173,30 @@ label{
     padding: 10px 20px;
     width: calc(100% - 20px);
 }
+/* contatto enterprise */
+.enterprise{
+    border: 1px solid lightgray;
+    margin-top: 40px;   
+}
+.enterprise .row{
+    justify-content: space-between;
+}
+.enterprise .more-info{
+    padding: 50px 30px 20px 30px;
+    position: static;
+}
+.enterprise .col-small{
+    padding: 30px 30px;
+}
+.enterprise .btn-blue{
+    padding: 10px 20px;
+}
+.enterprise small{
+    display: block;
+    margin: 20px 0 50px 0;
+}
+.enterprise p{
+    font-size: 14px;
+}
 
 /* FOOTER */
