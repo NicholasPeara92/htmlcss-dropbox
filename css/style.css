@@ -9,12 +9,60 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header a{
+    color: black;
+}
 
 /* COMMON */
+.flex{
+    display: flex;
+}
+.container-big{
+    max-width: 1180px;
+}
+.container-small{
+    max-width: 1000px;
+}
 
 /* BUTTONS */
+.btn-white{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 5px 8px;
+}
+.btn-blue{
+    background-color: #0061ff;
+    color: white;
+    font-size: 16px;
+    padding: 5px 8px;
+    border-color: #0061ff;
+}
 
 /* HEADER */
+header{
+    height: 80px;
+}
+header > div{
+    justify-content: space-between;
+}
+.header-col{
+    align-items: center;
+    padding: 20px;
+}
+header li{
+    padding: 0 10px;
+}
+header ul{
+    align-items: center;
+}
+
 
 /* MAIN */
 
