@@ -75,7 +75,8 @@ hr{
     background-color: white;
     color: black;
     font-size: 16px;
-    padding: 5px 8px;
+    padding: 10px;
+    border: 2px solid grey;
 }
 .btn-blue{
     background-color: #0061ff;
@@ -117,7 +118,7 @@ header .btn-blue{
 
 
 /* MAIN */
-.hero .col-small,.col-big{
+.hero .col-small,.hero .col-big{
     position: relative;
     top: 80px;
     margin-top: -20px;
@@ -202,5 +203,29 @@ label{
 .enterprise p{
     font-size: 14px;
 }
+/* trova un partner */
+#search-partner{
+    margin-top: 100px;
+}
+#search-partner .col-small{
+    padding: 50px 0 50px 50px;
+    width: 40%;
+}
+#search-partner .col-big{
+    width: 60%;
+}
+#search-partner p{
+    margin: 30px 0;
+}
+/* tools */
+.tools{
+    flex-wrap: wrap;
+}
+.tool{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
 
 /* FOOTER */
