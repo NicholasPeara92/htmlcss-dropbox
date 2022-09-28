@@ -69,6 +69,10 @@ hr{
     width: 50px;
     margin: 40px 0;
 }
+.mb{
+    margin-bottom: 20px;
+}
+
 
 /* BUTTONS */
 .btn-white{
