@@ -178,7 +178,7 @@ label{
 }
 /* offerte dropbox */
 .row .offerte{
-    width:calc(90% / 3);
+    width: 30%;
     border: 1px solid lightgray;
 }
 .offerte small{
