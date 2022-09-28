@@ -91,7 +91,7 @@ hr{
     transition: 0.5s;
 }
 .btn-white:hover{
-    background-color: darkgrey;
+    background-color: lightgrey;
     transition: 0.5s;
 }
 .btn-blue:active{
