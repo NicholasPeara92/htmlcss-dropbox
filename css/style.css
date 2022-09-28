@@ -42,10 +42,6 @@ h2{
     max-width: 1000px;
     margin: auto;
 }
-.hero{
-    background-color: #b4d0e7;
-    margin-top: 70px;
-}
 .col-small{
     max-width: 30%;
 }
@@ -89,6 +85,25 @@ hr{
     padding: 5px 10px;
     border: 1px solid #0061ff;
 }
+/* effetti */
+.btn-blue:hover{
+    background-color: darkblue;
+}
+.btn-white:hover{
+    background-color: darkgrey;
+}
+.btn-blue:active{
+    color: grey;
+}
+.btn-white:active{
+    color: white;
+}
+main a:hover{
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
 
 /* HEADER */
 header{
@@ -102,7 +117,7 @@ header{
 header > div{
     justify-content: space-between;
     box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 20%);
-
+    
 }
 header .row{
     background-color: white;
@@ -112,17 +127,21 @@ header .row{
     padding: 20px 10px;
 }
 header li{
-    padding: 0 10px;
+    padding: 0 20px;
 }
 header ul{
     align-items: center;
 }
 header .btn-blue{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 
 /* MAIN */
+.hero{
+    background-color: #b4d0e7;
+    margin-top: 70px;
+}
 .hero .col-small,.hero .col-big{
     position: relative;
     top: 80px;
