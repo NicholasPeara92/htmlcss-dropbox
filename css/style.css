@@ -77,6 +77,7 @@ hr{
     font-size: 16px;
     padding: 10px;
     border: 2px solid grey;
+    transform: all;
 }
 .btn-blue{
     background-color: #0061ff;
@@ -84,6 +85,7 @@ hr{
     font-size: 16px;
     padding: 5px 10px;
     border: 1px solid #0061ff;
+    transform: all;
 }
 /* effetti */
 .btn-blue:hover{
@@ -93,12 +95,15 @@ hr{
 .btn-white:hover{
     background-color: lightgrey;
     transition: 0.5s;
+    
 }
 .btn-blue:active{
     color: grey;
+    transition: none;
 }
 .btn-white:active{
     color: white;
+    transition: none;
 }
 main a:hover{
     text-decoration: none;
